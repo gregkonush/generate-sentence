@@ -1,137 +1,116 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home page matches snapshot 1`] = `
-<DocumentFragment>
+<div>
   <div
-    class="jsx-1276654382 container"
+    class="pages___StyledDiv-sc-1rar0h2-0 PjuDW"
   >
-    <main
-      class="jsx-1276654382"
+    <form
+      class="pages___StyledForm-sc-1rar0h2-1 kiDKwk"
     >
-      <h1
-        class="jsx-1276654382 title"
-      >
-        Welcome to 
-        <a
-          class="jsx-1276654382"
-          href="https://nextjs.org"
-        >
-          Next.js!
-        </a>
-      </h1>
-      <p
-        class="jsx-1276654382 description"
-      >
-        Get started by editing 
-        <code
-          class="jsx-1276654382"
-        >
-          pages/index.tsx
-        </code>
-      </p>
-      <button
-        class="jsx-1276654382"
-      >
-        Test Button
-      </button>
       <div
-        class="jsx-1276654382 grid"
+        class="input___StyledDiv-sc-6wa7t4-0 eMbqot"
       >
-        <a
-          class="jsx-1276654382 card"
-          href="https://nextjs.org/docs"
+        <label
+          class="label___StyledLabel-sc-1sm73mb-0 bMVZEK"
+          for="subject"
         >
-          <h3
-            class="jsx-1276654382"
-          >
-            Documentation →
-          </h3>
-          <p
-            class="jsx-1276654382"
-          >
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-        <a
-          class="jsx-1276654382 card"
-          href="https://nextjs.org/learn"
-        >
-          <h3
-            class="jsx-1276654382"
-          >
-            Learn →
-          </h3>
-          <p
-            class="jsx-1276654382"
-          >
-            Learn about Next.js in an interactive course with quizzes!
-          </p>
-        </a>
-        <a
-          class="jsx-1276654382 card"
-          href="https://github.com/vercel/next.js/tree/master/examples"
-        >
-          <h3
-            class="jsx-1276654382"
-          >
-            Examples →
-          </h3>
-          <p
-            class="jsx-1276654382"
-          >
-            Discover and deploy boilerplate example Next.js projects.
-          </p>
-        </a>
-        <a
-          class="jsx-1276654382 card"
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        >
-          <h3
-            class="jsx-1276654382"
-          >
-            Deploy →
-          </h3>
-          <p
-            class="jsx-1276654382"
-          >
-            Instantly deploy your Next.js site to a public URL with Vercel.
-          </p>
-        </a>
+          Enter a subject
+        </label>
+        <input
+          class="input___StyledInput-sc-6wa7t4-1 enXCtp"
+          name="subject"
+        />
       </div>
-    </main>
-    <footer
-      class="jsx-1276654382"
-    >
-      <a
-        class="jsx-1276654382"
-        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        rel="noopener noreferrer"
-        target="_blank"
+      <div
+        class="input___StyledDiv-sc-6wa7t4-0 eMbqot"
       >
-        Powered by 
-        <div
-          style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+        <label
+          class="label___StyledLabel-sc-1sm73mb-0 bMVZEK"
+          for="verb"
         >
-          <div
-            style="box-sizing: border-box; display: block; max-width: 100%;"
-          >
-            <img
-              alt=""
-              aria-hidden="true"
-              role="presentation"
-              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
-              style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
-            />
-          </div>
-          <img
-            alt="Vercel Logo"
-            decoding="async"
-            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-            style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-          />
-        </div>
-      </a>
-    </footer>
+          Enter a verb
+        </label>
+        <input
+          class="input___StyledInput-sc-6wa7t4-1 enXCtp"
+          name="verb"
+        />
+      </div>
+      <div
+        class="input___StyledDiv-sc-6wa7t4-0 eMbqot"
+      >
+        <label
+          class="label___StyledLabel-sc-1sm73mb-0 bMVZEK"
+          for="object"
+        >
+          Enter an object
+        </label>
+        <input
+          class="input___StyledInput-sc-6wa7t4-1 enXCtp"
+          name="object"
+        />
+      </div>
+      <label
+        class="label___StyledLabel-sc-1sm73mb-0 bMVZEK"
+        for="tense"
+      >
+        Choose a tense
+      </label>
+      <select
+        class="pages___StyledSelect-sc-1rar0h2-2 hvnios"
+        name="tense"
+      >
+        <option>
+          past
+        </option>
+        <option>
+          present
+        </option>
+        <option>
+          future
+        </option>
+      </select>
+      <div
+        class="pages___StyledDiv2-sc-1rar0h2-3 fFkQxp"
+      >
+        <input
+          name="progressive"
+          type="checkbox"
+        />
+        <label
+          class="label___StyledLabel-sc-1sm73mb-0 bMVZEK"
+          for="progressive"
+        >
+          progressive?
+        </label>
+      </div>
+      <hr
+        class="pages___StyledHr-sc-1rar0h2-4 Tiivl"
+      />
+    </form>
+    <div
+      class="pages___StyledDiv3-sc-1rar0h2-5 jgJrUc"
+    >
+      Result:
+    </div>
+    <svg
+      class="pages___StyledSvg-sc-1rar0h2-7 kIxLwG"
+      viewBox="0 0 24 24"
+    >
+      <circle
+        class="pages___StyledCircle-sc-1rar0h2-8 jWHHNh"
+        cx="12"
+        cy="12"
+        r="10"
+        stroke="currentColor"
+        stroke-width="4"
+      />
+      <path
+        class="pages___StyledPath-sc-1rar0h2-9 jdnYLu"
+        d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+        fill="currentColor"
+      />
+    </svg>
   </div>
-</DocumentFragment>
+</div>
 `;
